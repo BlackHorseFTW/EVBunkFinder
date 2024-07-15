@@ -1,0 +1,43 @@
+/* landing.css */
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Rubik;
+  }
+  
+  .landing__options {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dcdcdc; /* Light gray background */
+    padding: 20px 40px 40px 40px;
+    border-radius: 20px;
+    font-family: Rubik;
+  }
+  
+  .landing__option {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 120px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .landing__option:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  

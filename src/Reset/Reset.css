@@ -1,0 +1,39 @@
+.reset {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Rubik;
+}
+.reset__container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 60px;
+  border-radius: 20px;
+  font-family: Rubik;
+}
+.reset__textBox {
+  padding: 15px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 120px;
+  font-family: Rubik;
+}
+.reset__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 120px;
+  font-family: Rubik;
+}
+.reset div {
+  margin-top: 7px;
+  font-family: Rubik;
+}
